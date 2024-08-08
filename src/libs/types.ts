@@ -2,7 +2,7 @@
 // Do not forget to export properly.
 
 interface ReplyProps {
-    userimagePath: string;
+    userImagePath: string;
     username: string;
     replyText: string;
     likeNum: number;
@@ -10,14 +10,14 @@ interface ReplyProps {
 export type { ReplyProps };
 
 interface PostProps {
-    userimagePath: string;
+    userImagePath: string;
     username: string;
     likes: number;
 }
 export type { PostProps };
 
 interface CommentProps {
-    userimagePath: string;
+    userImagePath: string;
     username: string;
     commentText: string;
     likeNum: number;

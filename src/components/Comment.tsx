@@ -4,7 +4,7 @@ import Reply from "@/components/Reply";
 import { CommentProps } from "@/libs/types";
 
 export default function Comment({
-  userimagePath,
+  userImagePath,
   username,
   commentText,
   likeNum,
@@ -14,7 +14,7 @@ export default function Comment({
     <div>
       <div className="d-flex gap-2 my-2">
         <img
-          src={userimagePath}
+          src={userImagePath}
           width="48"
           height="48"
           className="rounded-circle"

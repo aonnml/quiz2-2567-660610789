@@ -1,11 +1,11 @@
 "use client";
 import { ReplyProps } from "@/libs/types";
 
-export default function Reply({userimagePath, username, likeNum, replyText }: ReplyProps) {
+export default function Reply({userImagePath, username, likeNum, replyText }: ReplyProps) {
   return <div>
     <div className="d-flex gap-2 my-2 ps-5">
         <img
-          src={userimagePath}
+          src={userImagePath}
           width="48"
           height="48"
           className="rounded-circle"

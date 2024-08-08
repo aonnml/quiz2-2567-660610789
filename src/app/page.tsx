@@ -14,7 +14,7 @@ export default function Home() {
         className="mx-auto p-3 rounded rounded-3 shadow-sm bg-white"
       >
         {/* Post Owner Example*/}
-      <PostOwnner userimagePath="/profileImages/20240619_191714.jpg" username="Ratchanon Chaiwong 660610789" likes={100}/>
+      <PostOwnner userImagePath="/profileImages/20240619_191714.jpg" username="Ratchanon Chaiwong 660610789" likes={100}/>
         {/* map-loop render Comment component here */}
         {/* Comment Example */}
         {comments.map((user) => (<Comment key = {user.username} {...user}/>))}

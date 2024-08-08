@@ -1,11 +1,11 @@
 "use client";
 import { PostProps } from "@/libs/types";
-export default function PostOwnner({username, likes, userimagePath}: PostProps) {
+export default function PostOwnner({username, likes, userImagePath}: PostProps) {
   return <div>
     <div className="vstack gap-3">
         <div className="d-flex align-items-center gap-3">
           <img
-            src={userimagePath}
+            src={userImagePath}
             width="48"
             height="48"
             className="rounded-circle"
