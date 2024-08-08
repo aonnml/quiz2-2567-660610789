@@ -34,7 +34,7 @@ export default function Comment({
         </div>
       </div>
       {/* You can use map-loop to render Reply component here */}
-      <Reply />
+      {replies.map((user) => (<Reply key = {user.username} {...user}/>))}
     </div>
   );
 }
